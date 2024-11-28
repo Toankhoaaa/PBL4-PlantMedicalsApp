@@ -1,0 +1,88 @@
+.modal-dialog {
+  max-width: 800px;
+  width: 100%;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 10px;
+}
+
+.drag-area {
+  border: 2px dashed #5256ad;
+  height: 400px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: border 0.3s ease;
+}
+
+.drag-area.active {
+  border: 2px solid #5256ad;
+}
+
+.drag-area .icon {
+  font-size: 80px;
+  color: #5256ad;
+}
+
+.drag-area header {
+  font-size: 24px;
+  font-weight: 500;
+  color: #5256ad;
+  margin-top: 20px;
+}
+
+.drag-area span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #5256ad;
+  margin: 10px 0 15px 0;
+}
+
+.drag-area button {
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #5256ad;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.drag-area button:hover {
+  background: #fff;
+  color: #5256ad;
+}
+
+.drag-area img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.modal-header {
+  border-bottom: none;
+  background-color: #5256ad;
+  color: #fff;
+}
+
+.modal-title {
+  font-weight: 600;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-footer button {
+  font-size: 16px;
+  font-weight: 500;
+}
